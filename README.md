@@ -1,18 +1,22 @@
-# PREDETICTION-FOR-PARKINSON-S-DISEASE
+# PREDETICTION-FOR-PARKINSON-S-DISEASE | Data Visualization, Feature Engineering, Hyperparameter Tuning, Python 
 
 Introduction:-
 
-Parkinson's disease (PD) is a progressive neurological illness that has a major negative influence on a person's quality of life. A timely and precise diagnosis is essential to the successful treatment of Parkinson's disease (PD). Here, we provide a machine learning-based method for Parkinson's disease prediction that makes use of a broad dataset that includes clinical history, demographic data, and a variety of motor and non-motor symptoms. The study starts by gathering and pre-processing a large dataset, taking care of problems like outliers and missing values. The purpose of exploratory data analysis is to learn more about the properties of the dataset. In order to improve the interpretability and performance of the model, feature selection approaches are utilized to determine the most pertinent factors that are contributing to the prediction of Parkinson's disease. Because SVM, Decision Trees, and Random Forest are good machine learning algorithms, they are selected for classification problems. To make training and evaluating the model easier, the dataset is then divided into training and testing sets. The model is put through a rigorous training process, and its predictive power is maximized by hyperparameter tuning. Accuracy is one of the evaluation measures used to evaluate the model's performance on the testing dataset. Using more datasets, the model's generalizability and resilience are further confirmed. The results show that the suggested machine learning model has the potential to be a precise and trustworthy tool for Parkinson's disease prediction. 
-
-![image](https://github.com/rutbala/PREDETICTION-FOR-PARKINSON-S-DISEASE/assets/165860969/4a578318-bd94-4b22-95c0-e07bb4e89687)
+This project presents a machine learning model for predicting Parkinson's disease (PD) using a comprehensive dataset that includes clinical, demographic, and symptom data. After preprocessing, feature selection identifies key predictors. SVM, Decision Trees, and Random Forest are used for classification, with the model optimized through hyperparameter tuning. The model is validated for accuracy and generalizability, showing strong potential as a reliable tool for PD prediction. 
 
 Modules:-
 
-1. SVM - SVM is a supervised machine learning technique that may be applied to regression and classification problems. It operates by locating the hyperplane in the feature space that best divides various classes.
-2. Random Forest- An ensemble learning technique called Random Forest builds a large number of decision trees during training and outputs a class that is the mean prediction (regression) or the mode of the classes (classification) of the individual trees. To produce a prediction that is more reliable and accurate, it constructs several decision trees and combines them.
-3. Decision Tree- A decision tree is a model of decisions and their potential outcomes that resembles a tree. It divides a dataset into more manageable sections and simultaneously builds a corresponding decision tree separately.
-4. Kneighbours- KNN is a basic, instance-based learning method that may be applied to regression and classification problems. The way it operates is that it locates the 'k' training examples in the feature space that are nearest to a new input, and then it uses the majority class among those k-nearest neighbors to classify the new input.
-5. Gaussian Naive Bayes- A well-liked classification technique based on the Bayes theorem is called Gaussian Naive Bayes (GNB). Assumptions regarding the data's distribution are made by this probabilistic technique.
+1. SVM (Support Vector Machine): A supervised learning algorithm that finds the optimal hyperplane to separate classes in classification tasks.
+
+2. Random Forest: An ensemble method that combines multiple decision trees to improve classification and regression accuracy.
+
+3. Decision Tree: A model that splits data into branches based on feature values, used for decision-making in classification and regression.
+
+4. K-Nearest Neighbors (KNN): A classification algorithm that assigns labels based on the closest 'k' training examples.
+
+5. Gaussian Naive Bayes (GNB): A probabilistic classifier based on Bayes' theorem, assuming a Gaussian distribution of features.
+
+![image](https://github.com/rutbala/PREDETICTION-FOR-PARKINSON-S-DISEASE/assets/165860969/4a578318-bd94-4b22-95c0-e07bb4e89687)
 
 Result:- 
 
